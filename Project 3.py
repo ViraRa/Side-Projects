@@ -1,3 +1,4 @@
+from pprint import pprint
 class DP_FIB_Memo:
 
     memo = []
