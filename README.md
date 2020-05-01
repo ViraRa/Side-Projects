@@ -6,3 +6,5 @@
 **Project 2** - Check if a short DNA sequence is a palidrome by finding the sequence's complimentary strand. I provide the short DNA sequence in the constructor
 
 **Project 3** - Simple dynamic programming using the bottom-up approach on fibonacci sequence. I provide the input when I am creating an object.  
+
+**Project 4** - A binary search program. The complexity is log<sub>2</sub>(N). 
