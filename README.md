@@ -1,5 +1,5 @@
 # Side-Projects (On-going)
-### Working on improving my python skills with side projects
+### The point of these short projects is to implement any ideas I come up with spontaneously. They are written in Python 3. 
 
 **Project 1** - Randomly generate a number from 0 to and including 20, and the user needs to guess a number from this range. I guide the user to enter a number (not a string) from this range. I tell him/her if the number is too high or too low. 
 
