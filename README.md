@@ -10,3 +10,5 @@
 **Project 4** - A binary search program. The complexity is log<sub>2</sub>(N). 
 
 **Project 5** - A daily compound interest calculator that outputs the total return after n years. It also outputs daily and monthly interest that accrued during n years. All of this is determined by a series of questions that the user answers. The algorithm takes account of leap years and non-leap years. Time complexity is approx. O(N).
+
+**Project 6** - Finds an average net charge of a single peptide based on a pH provided by the user.The pka for AA and N/C terminal comes from a Biochemistry textbook. You can change the pka based on your needs. This short project works with any peptide size. The algorithm is O(N) complexity.
