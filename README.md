@@ -12,3 +12,5 @@
 **Project 5** - A daily compound interest calculator that outputs the total return after n years. It also outputs daily and monthly interest that accrued during n years. All of this is determined by a series of questions that the user answers. The algorithm takes account of leap years and non-leap years. Time complexity is approx. O(N).
 
 **Project 6** - Finds an average net charge of a single peptide based on a pH provided by the user.The pka for AA and N/C terminal comes from a Biochemistry textbook. You can change the pka based on your needs. This short project works with any peptide size. The algorithm is O(N) complexity.
+
+**Project 7** - Use dynamic programming to solve the Fibonacci sequence. This is an O(N) algorithm as opposed to an exponential one if the naive approach is implemented. I also performed unit testing to test the code. 
