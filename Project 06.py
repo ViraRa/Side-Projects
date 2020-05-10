@@ -2,11 +2,6 @@ import numpy as np
 from fractions import Fraction
 import sys
 
-# make sure to check the peptide is in one-letter or three-letter code format
-# if it's in one-letter and you typed "n" to the below question you will get an error
-
-# This short algo. finds an average net charge of a single peptide sequence that can be any size.
-
 class protein_charge_calc:
 
     def __init__(self, pH):
@@ -39,7 +34,8 @@ class protein_charge_calc:
 
         # Overall complexity is O(N)
 
-    def protein_charge(self, seq, pH):
+    @staticmethod
+    def protein_charge(seq, pH):
 
         # Feel free to change the pka to anything that makes sense based on your reference
 
@@ -103,4 +99,5 @@ class protein_charge_calc:
                     elif(ratio_base_to_acid_simp == 1):
                         charge_arr = np.append(charge_arr, -0.5)
         return charge_arr
+
 obj = protein_charge_calc(2.34) # change pH value here
