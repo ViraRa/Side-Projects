@@ -29,7 +29,7 @@ class protein_charge_calc:
             print("The average net charge is: " + str(sum(answer)))
             # sum is O(N)
         else: # three letter code format
-            for x in range(0, len(protein_length[0]), 3):
+            for x in range(0, protein_length, 3):
                 protein_list.append(protein[x : x + 3])
             answer = self.protein_charge(protein_list, pH)
             print("The average net charge is: " + str(sum(answer)))
