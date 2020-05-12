@@ -14,3 +14,5 @@
 **Project 6** - Finds an average net charge of a single peptide based on a pH provided by the user.The pka for AA and N/C terminal comes from a Biochemistry textbook. You can change the pka based on your needs. This short project works with any peptide size. The algorithm is O(N) complexity.
 
 **Project 7** - Use dynamic programming to solve the Fibonacci sequence. This is an O(N) algorithm as opposed to an exponential one if the naive approach is implemented. I also performed unit testing to test the code. 
+
+**Project 8** - This project modifies Project 6 by adding the pI function to find the pI of an peptide. pI or isoelectric point is defined as the pH when the peptide has an average net charge of zero (meaning it is electrically neutral). pI algorithm is O(Nlog<sub>2</sub>(N)) because of python's in-built sorting algorithm (time sort), which does no better than merge sort.
