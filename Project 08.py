@@ -38,7 +38,7 @@ class protein_charge_calc:
         print("The pI of the sequence is: " + str(pI) + "\n")
 
 
-        # Overall complexity is O(N)
+        # Overall complexity is O(NlogN)
 
     def protein_charge(self, seq, pH):
 
