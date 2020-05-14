@@ -17,4 +17,4 @@
 
 **Project 8** - This project modifies Project 6 by adding the pI function to find the pI of an peptide. pI or isoelectric point is defined as the pH when the peptide has an average net charge of zero (meaning it is electrically neutral). pI algorithm is O(Nlog<sub>2</sub>(N)) because of python's in-built sorting algorithm (time sort), which does no better than merge sort.
 
-**Project 9** - This project extends Project 8 by adding MW calculation. The code is reading from an excel workbook that contains the individual aa's molecular weight found on Thermo Fisher website. I then created a simple GUI to display the results. The overall program went up in time complexity to O(n<sup>2</sup>). 
+**Project 9** - This project extends Project 8 by adding MW calculation. The code is reading from an excel workbook that contains the individual aa's molecular weight found on Thermo Fisher website. I then created a simple GUI to display the results. The overall program went up in time complexity to O(n<sup>2</sup>). Also, the protein.txt file now supports fasta format for sequences (i.e in columns)
