@@ -16,3 +16,5 @@
 **Project 7** - Use dynamic programming to solve the Fibonacci sequence. This is an O(N) algorithm as opposed to an exponential one if the naive approach is implemented. I also performed unit testing to test the code. 
 
 **Project 8** - This project modifies Project 6 by adding the pI function to find the pI of an peptide. pI or isoelectric point is defined as the pH when the peptide has an average net charge of zero (meaning it is electrically neutral). pI algorithm is O(Nlog<sub>2</sub>(N)) because of python's in-built sorting algorithm (time sort), which does no better than merge sort.
+
+**Project 9** - This project extends Project 8 by adding MW calculation. The code is reading from an excel workbook that contains the individual aa's molecular weight found on Thermo Fisher website. I then created a simple GUI to display the results. The overall program went up in time complexity to O(n<sup>2</sup>). 
