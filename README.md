@@ -27,3 +27,5 @@ You can also specify the version when running the code such as python3 [Project 
 **Project 9** - This project extends Project 8 by adding MW calculation. The code is reading from an excel workbook that contains the individual aa's molecular weight found on Thermo Fisher website. I then created a simple GUI to display the results. The overall program went up in time complexity to O(n<sup>2</sup>). Also, the protein.txt file now supports fasta format for sequences (i.e in columns)
 
 **Project 10** - Simple binary tree program with unit testing. The point of this is to practice unit-testing. 
+
+**Project 11** - Review Graph Theory and common traversals (Breadth first-search and Depth first-search). Use unittest to test code.
