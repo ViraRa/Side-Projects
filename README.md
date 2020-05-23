@@ -29,3 +29,5 @@ You can also specify the version when running the code such as python3 [Project 
 **Project 10** - Simple binary tree program with unit testing. The point of this is to practice unit-testing. 
 
 **Project 11** - Review Graph Theory and common traversals (Breadth first-search and Depth first-search). Use unittest to test code.
+
+**Project 12** - A modification of Project 9 that checks how many polar amino-acids are in your sequence and outputs a percentage via a GUI. Refactor the code to be more maintainable for future modifications.
