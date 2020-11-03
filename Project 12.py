@@ -62,7 +62,7 @@ class protein_charge_calc:
 
         # used this MW table found on Thermo Fisher website
         def openMW():
-            webbrowser.open_new_tab("https://bre.is/ngbJ2wZz")
+            webbrowser.open_new_tab("https://www.thermofisher.com/us/en/home/references/ambion-tech-support/rna-tools-and-calculators/proteins-and-amino-acids.html")
         
         # cool bioinformatics tool
         def openBio():
