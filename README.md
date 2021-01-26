@@ -1,4 +1,4 @@
-# Side-Projects (On-going)
+# Side-Projects 
 ### The point of these short projects is to implement any ideas I come up with spontaneously. They are written in Python 3. 
 
 HOW TO RUN PROJECTS:
